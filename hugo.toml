@@ -1,0 +1,6 @@
+baseURL = 'https://osainat.io/'
+languageCode = 'en-us'
+title = 'Osainat'
+theme = 'wowchemy'
+author = 'Mariachana Moturi'
+description = 'Narrating Open Source, AI, and Digital Infrastructure'
