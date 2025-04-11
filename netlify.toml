@@ -1,0 +1,14 @@
+[build]
+  publish = "public"
+  command = "hugo"
+
+[context.production.environment]
+  HUGO_VERSION = "0.111.3"  # Recommended version for Hugo Blox
+  HUGO_ENV = "production"
+  NODE_VERSION = "18.16.0"  # Only needed if you're using Tailwind or JS build tools
+
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.111.3"
+
+[context.branch-deploy.environment]
+  HUGO_VERSION = "0.111.3"
